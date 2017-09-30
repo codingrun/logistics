@@ -27,9 +27,6 @@ import javax.net.ssl.X509TrustManager;
  */
 
 public class PostOfficeAPI extends AsyncTask<Void, Void, Boolean> {
-
-    String key = "5115dfc34c41d7ff51503207726154";
-    String requestURL = "https://biz.epost.go.kr/KpostPortal/openapi?";
     String query = "";
 
 

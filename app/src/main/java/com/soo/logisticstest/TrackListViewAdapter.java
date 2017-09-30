@@ -17,7 +17,6 @@ import java.util.ArrayList;
 
 public class TrackListViewAdapter extends BaseAdapter {
     private ArrayList<TrackingModel> TrackList = new ArrayList<TrackingModel>();
-    int finalCount = 0;
 
     public TrackListViewAdapter(ArrayList<TrackingModel> receiveList){
         //거꾸로 넣어주기 위해 넣어줌

@@ -56,12 +56,6 @@ public class MainActivity extends AppCompatActivity implements MapView.MapViewEv
         //경도 위도 가져옴
         lat = intent.getDoubleExtra("lat", 0.0);
         lng = intent.getDoubleExtra("lng", 0.0);
-//        String lngSTR = intent.getStringExtra("lng");
-//
-//        if(!latSTR.equals("") && !lngSTR.equals("")){
-//            lat = Double.parseDouble(latSTR);
-//            lng = Double.parseDouble(lngSTR);
-//        }
 
         String invoiceNo = intent.getStringExtra("invoiceNo");
         recive = (TextView)findViewById(R.id.data);
@@ -128,9 +122,6 @@ public class MainActivity extends AppCompatActivity implements MapView.MapViewEv
         poiItem1.setMarkerType(MapPOIItem.MarkerType.BluePin);
         poiItem1.setSelectedMarkerType(MapPOIItem.MarkerType.BluePin);
         mapView.addPOIItem(poiItem1);
-
-
-
 
     }
 
