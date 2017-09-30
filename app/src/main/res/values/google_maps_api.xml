@@ -1,0 +1,7 @@
+<resources>
+    <!--
+    TODO: 앱을 실행하기전 Google Maps API key를 입력하세요.
+
+    -->
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">AIzaSyAAZl3GR67te1OaWdIY0yIG76tiQEIEhCU</string>
+</resources>
